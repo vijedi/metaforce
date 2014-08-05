@@ -25,12 +25,13 @@ EOL
   s.add_dependency 'rubyzip', '~> 1.0'
   s.add_dependency 'activesupport'
   s.add_dependency 'hashie', '~> 1.2.0'
-  s.add_dependency 'thor', '~> 0.16.0'
+  s.add_dependency 'thor', '~> 0.19.0'
   s.add_dependency 'listen', '~> 0.6.0'
   s.add_dependency 'rb-fsevent', '~> 0.9.1'
 
   s.add_development_dependency 'rake'
   s.add_development_dependency 'rspec'
+  s.add_development_dependency 'rspec-its'
   s.add_development_dependency 'webmock'
   s.add_development_dependency 'savon_spec', '~> 1.3.0'
 end
